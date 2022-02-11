@@ -15,7 +15,7 @@ This is a code-along project in which I used Node.js to practice handling routin
 There are three major takeaways from this project:
 
 1) **HTML Templating**. In order for the server to return HTML webpages dynamically based on the data requested by the user, it's a good practice to bind texts and values with placeholders like `{% %}` so that they can be updated accordingly.
-2) **Top-level code**. The code that are outside of callback functions will only get executed once in the beginning when the application loads up. Top-level code helps to get the data prepared for the incoming requests as soon as the application is run, so it won't delay the execution of our code.
+2) **Top-level code**. The code that are outside of callback functions will only get executed once in the beginning when the application loads up. Top-level code helps to get the data prepared for the incoming requests as soon as the application runs, so it won't delay the execution of our code.
 3) **Creating modules**. In the Node application, all files are essentially modules. It's beneficial to separate reusable features into their own files or modules so that they are accessible everywhere across the project. This also helps to avoid cluttering the main workspace (`index.js` in our case). To export a module, use `module.exports`.
 
 ## 💻 Setup
